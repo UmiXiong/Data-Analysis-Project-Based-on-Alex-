@@ -14,3 +14,6 @@ excel找到插入栏目，选择pivot table
     如果我们要查看具体的国家，则是选中上面的全部中的指定的国家
 总结：利用pivot table数据透视表，我们可以快速提取到表中的基于指定内容的信息
 2. formulas 
+  函数格式：=函数名称(范围)
+  max/min为= max/min(范围)
+  if为=if(范围，T condition，F condition）；ifs则是键值对，为条件1:结果1，条件2:结果2...)
