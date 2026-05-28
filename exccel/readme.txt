@@ -17,3 +17,13 @@ excel找到插入栏目，选择pivot table
   函数格式：=函数名称(范围)
   max/min为= max/min(范围)
   if为=if(范围，T condition，F condition）；ifs则是键值对，为条件1:结果1，条件2:结果2...)
+  len为查看字符串长度：=len(范围）
+  left/right类似于子字符串
+  text比较特殊，不能直接对日期使用，否则会得到一个奇怪的数字（日期转换为时间），格式为TEext(日期，转换格式）
+  trim用于去除空格
+  concate用于数据连接，为concate(A1," ",A2);设定一个个时候，可以拖动，使得拖动格也是用相同的函数
+  substitute可以用于指定要替换的字符，为substitue(范围，“旧字符”，“新字符”，“位置”（可选））‘
+  sum为计算总和;SUMIF则是（范围，项条件）;sumifs则是多段条件叠加（范围，范围1，条件1，范围2，条件2）
+  count统计数量，countif和countifs要求和上面类似
+  days统计日期差异，为(enddate,startdate）；networkdays类似（START date， end date），但是排除节假日（数据需要是文本格式）
+
