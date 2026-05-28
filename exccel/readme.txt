@@ -51,5 +51,8 @@ excel找到插入栏目，选择pivot table
   首字母大写：proper（总统名称）/upper（lower）：整体大/小写
   trim：删除多余的空格
 
+7.full project
+  数据项下面有去重键：删除重复项
+
   
 
